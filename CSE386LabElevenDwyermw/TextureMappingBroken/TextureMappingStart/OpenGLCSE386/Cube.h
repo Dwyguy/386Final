@@ -10,7 +10,7 @@ class Cube : public VisualObject
 {
 	public:
 		Cube( OpenGLApplicationBase * OpenGLApp, string textureFileName = NULL,
-			  float height = 1.0f, float width = 1.0f, 
+			  float height = 1.0f, float width = 1.0f, float depth = 1.0f, 
 			  int rows = 1, int columns = 1 );
 
 		virtual ~Cube(void);

@@ -120,6 +120,7 @@ copy "*.h" "$(SolutionDir)"\Include\</Command>
     <ClInclude Include="SpaceShip.h" />
     <ClInclude Include="Sphere.h" />
     <ClInclude Include="Spinner.h" />
+    <ClInclude Include="Tank.h" />
     <ClInclude Include="textureCoordinates.h" />
     <ClInclude Include="Torus.h" />
     <ClInclude Include="TwoTriangleFigure.h" />
@@ -155,6 +156,7 @@ copy "*.h" "$(SolutionDir)"\Include\</Command>
     <ClCompile Include="SpaceShip.cpp" />
     <ClCompile Include="Sphere.cpp" />
     <ClCompile Include="Spinner.cpp" />
+    <ClCompile Include="Tank.cpp" />
     <ClCompile Include="textureCoordinates.cpp" />
     <ClCompile Include="Torus.cpp" />
     <ClCompile Include="TwoTriangleFigure.cpp" />

@@ -3,7 +3,7 @@
 
 
 Cube::Cube(OpenGLApplicationBase * OpenGLApp, string textureFileName,
-	float height, float width, int rows, int columns)
+	float height, float width, float depth, int rows, int columns)
 	: VisualObject(OpenGLApp), textureFileName( textureFileName ),
 	  height(height), width(width), rows(rows), columns(columns)
 {
